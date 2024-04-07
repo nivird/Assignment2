@@ -7,7 +7,8 @@ body{
     background-color: rgb(59, 76, 16);
     margin:0;
 }
-header{
+.home
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
