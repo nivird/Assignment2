@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(59, 76, 16);
+    background-color: rgb(229, 165, 224);
     margin:0;
 }
 /* top header tags */
@@ -14,8 +14,9 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    color:indigo;
-    background-color:darkseagreen;
+    color:rgb(60, 13, 29);
+    background-color:rgb(159, 115, 158);
+    border-bottom: 10px solid rgb(66, 41, 73);
 }
 h1{
     font-size: 200%;
@@ -23,18 +24,18 @@ h1{
 
 h1:hover
 {
-    color: darkblue;
+    color: rgb(222, 175, 34);
 }
 
 nav a{
     text-decoration: none;
-    color:indigo;
+    color:rgb(76, 13, 66);
     font-weight: bold;
     font-style: italic;
 }
 nav a:hover
 {
-    color:crimson;
+    color:rgb(183, 210, 103);
 }
     
 main
@@ -45,19 +46,50 @@ main
 aside
 {
     flex: 1;
-    background-color: aquamarine;
-    padding: 80px;
-    text-align: center;
+    background-color: rgb(153, 61, 136);
+    padding: 40px;
+    text-align:justify;
 }
-
+h3{
+    font-size: 25px;
+    color: rgb(208, 157, 26);
+}
+ul
+{
+    list-style-type: none;
+    color: bisque;
+    font-size: 20px;
+ }
+.objective
+{
+    /*background-color: chocolate;*/
+    color: rgb(153, 101, 32);
+    font-family: Lucida Sans;
+    text-align: left;
+}
+h2:hover
+{
+    color: gold;
+}
+#objective
+{
+    text-align: center;
+    color:rgb(104, 4, 96);
+}
+p
+{
+    text-align: center;
+    color:rgb(212, 182, 35);
+}
 footer
 {
-    padding: 20px;
+    height: fit-content;
+    padding: 1%;
     text-align: center;
-    background: red;
+    background: rgb(111, 25, 80);
     color: beige;
+   
 }
-
 .mywork
 {
     flex: 4;
@@ -72,19 +104,23 @@ footer
 {
     border-style: solid;
     border-width: 1px;
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 10px;
     flex:0 0 400px;
+    transform: rotate(8deg);
+    box-shadow: 10px 10px 5px blueviolet;
+    margin: 20px;
 }
 
 .project header
 {
+    border-radius: 50px 50px 0px 0px;
     padding: 20px;
 }
 
 .project img
 {
-    width: 100%;
+    width: 25px;
 }
 
 @media screen and (max-width: 768px) {
