@@ -1,3 +1,38 @@
+*
+{
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgb(136, 39, 107);
+    background-color: rgb(59, 76, 16);
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color:indigo;
+    background-color:darkseagreen;
+}
+h1{
+    font-size: 200%;
+}
+
+h1:hover
+{
+    color: darkblue;
+}
+
+nav a{
+    text-decoration: none;
+    color:indigo;
+    font-weight: bold;
+    font-style: italic;
+}
+nav a:hover
+{
+    color:crimson;
+}
+    
 }
