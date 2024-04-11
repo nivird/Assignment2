@@ -1,3 +1,10 @@
 # Assignment2
-Created a Portfolio
-Coded HTML to build the form and styled with CSS.
+User Acceptance Criteria
+
+1. Create a portfolio with css variables, flexbox and media queries
+2. Portfolio comes with pictures
+3. Created a HTML file with the internal links 
+4. Gave the color to look like a one family color like purple family
+5. Gave highlighting colors to look highlightly
+6. Gave border properties to give stylish looks to the pictures.
+7. Used emojis to look more fun.
