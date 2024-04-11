@@ -18,6 +18,7 @@ body{
     background-color:rgb(159, 115, 158);
     border-bottom: 10px solid rgb(66, 41, 73);
 }
+
 h1{
     font-size: 200%;
 }
@@ -43,13 +44,24 @@ main
     display: flex;
     flex-wrap: wrap;
 }
-aside
-{
-    flex: 1;
-    background-color: rgb(153, 61, 136);
-    padding: 40px;
-    text-align:justify;
-}
+
+.profile {
+    display: flex;
+    /* Align the child elements to the top of the parent */
+    align-items: flex-start;
+    width: 90%;
+    margin: 1% auto;
+  }
+  
+.profile-image {
+    width: 50%;
+    border-radius: 150px;
+  }
+  
+  .details {
+    margin-left: 3%;
+    flex: 0 0 60%;
+  }
 h3{
     font-size: 25px;
     color: rgb(208, 157, 26);
@@ -60,13 +72,7 @@ ul
     color: bisque;
     font-size: 20px;
  }
-.objective
-{
-    /*background-color: chocolate;*/
-    color: rgb(153, 101, 32);
-    font-family: Lucida Sans;
-    text-align: left;
-}
+
 h2:hover
 {
     color: gold;
@@ -78,8 +84,8 @@ h2:hover
 }
 p
 {
-    text-align: center;
-    color:rgb(212, 182, 35);
+    text-align:justify;
+    color:#4e4310;
 }
 footer
 {
@@ -98,15 +104,17 @@ footer
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
+    color-scheme: rgba(98, 17, 93, 0.893);
 }
 
 .project
 {
     border-style: solid;
     border-width: 1px;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 10px;
-    flex:0 0 400px;
+    flex:0 0 200px;
     transform: rotate(8deg);
     box-shadow: 10px 10px 5px blueviolet;
     margin: 20px;
@@ -114,13 +122,14 @@ footer
 
 .project header
 {
-    border-radius: 50px 50px 0px 0px;
+    /*border-radius: 50px 50px 0px 0px;*/
+border-radius: 25% 10%;
     padding: 20px;
 }
 
 .project img
 {
-    width: 25px;
+    width: 50%;
 }
 
 @media screen and (max-width: 768px) {
