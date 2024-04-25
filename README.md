@@ -8,3 +8,4 @@ User Acceptance Criteria
 5. Gave highlighting colors to look highlightly
 6. Gave border properties to give stylish looks to the pictures.
 7. Used emojis to look more fun.
+![alt text](<assignment - portfolio.png>)
